@@ -39,6 +39,10 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				 
+				<configuration>
+					<fileName>app</fileName>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
