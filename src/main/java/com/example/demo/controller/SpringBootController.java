@@ -8,7 +8,7 @@ public class SpringBootController {
 	
 	@GetMapping("/")
 	public String test() {
-		return "test";
+		return "Welcome to Cloud Bucket..!";
 	}
 
 }
